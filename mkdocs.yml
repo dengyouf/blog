@@ -28,6 +28,5 @@ plugins:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
 nav:
-  - Home: index.md
   - DevOps:
       - 基于Jenkins和Argocd实现CI/CD: 'devops/jenkins-and-argocd.md'
