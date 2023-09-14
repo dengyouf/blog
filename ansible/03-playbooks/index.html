@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="deng you" /><link rel="canonical" href="https://dengyouf.github.io/blog/devops/jenkins-and-argocd/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="deng you" /><link rel="canonical" href="https://dengyouf.github.io/blog/ansible/03-playbooks/" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>基于Jenkins和Argocd实现CI/CD - 学习笔记</title>
+    <title>03 playbooks - Reading NOTES</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "\u57fa\u4e8eJenkins\u548cArgocd\u5b9e\u73b0CI/CD";
-        var mkdocs_page_input_path = "devops\\jenkins-and-argocd.md";
-        var mkdocs_page_url = "/blog/devops/jenkins-and-argocd/";
+        var mkdocs_page_name = "03 playbooks";
+        var mkdocs_page_input_path = "ansible\\03-playbooks.md";
+        var mkdocs_page_url = "/blog/ansible/03-playbooks/";
       </script>
     
     <script src="../../js/jquery-3.6.0.min.js" defer></script>
@@ -31,7 +31,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="../.." class="icon icon-home"> 学习笔记
+          <a href="../.." class="icon icon-home"> Reading NOTES
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -40,9 +40,22 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">ANSIBLE</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../">Get started with Ansible</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../02-install/">Installation and Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../03-playbooks.md">Playbooks Beginning</a>
+                  </li>
+              </ul>
               <p class="caption"><span class="caption-text">DevOps</span></p>
-              <ul class="current">
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">基于Jenkins和Argocd实现CI/CD</a>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">基于Jenkins和Argocd实现CI/CD</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../devops/jenkins/">Jenkins 安装</a>
+                </li>
+    </ul>
                   </li>
               </ul>
       </div>
@@ -52,17 +65,16 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../..">学习笔记</a>
+          <a href="../..">Reading NOTES</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>DevOps &raquo;</li>
-      <li>基于Jenkins和Argocd实现CI/CD</li>
+      <li>03 playbooks</li>
     <li class="wy-breadcrumbs-aside">
-        <a href="https://github.com/dengyouf/blog/edit/master/docs/devops/jenkins-and-argocd.md"> Edit on dengyouf/blog</a>
+        <a href="https://github.com/dengyouf/blog/edit/master/docs/ansible/03-playbooks.md"> Edit on dengyouf/blog</a>
     </li>
   </ul>
   <hr/>
@@ -70,7 +82,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                
+                <h2 id="playbooks-a-beginning">Playbooks: A Beginning</h2>
               
             </div>
           </div><footer>
