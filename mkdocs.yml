@@ -1,4 +1,4 @@
-site_name: '学习笔记'
+site_name: 'Reading NOTES'
 site_url: 'https://dengyouf.github.io/blog/'
 site_author: "deng you"
 
@@ -28,5 +28,10 @@ plugins:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
 nav:
+  - ANSIBLE:
+      - Get started with Ansible: 'ansible/index.md'
+      - Installation and Setup: 'ansible/02-install.md'
+      - Playbooks Beginning: '03-playbooks.md'
   - DevOps:
-      - 基于Jenkins和Argocd实现CI/CD: 'devops/jenkins-and-argocd.md'
+      - 基于Jenkins和Argocd实现CI/CD:
+          - Jenkins 安装: 'devops/jenkins.md'
