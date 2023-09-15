@@ -2,27 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dengyouf.github.io/blog/</loc>
-         <lastmod>2023-09-14</lastmod>
+         <lastmod>2023-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dengyouf.github.io/blog/ansible/</loc>
-         <lastmod>2023-09-14</lastmod>
+         <lastmod>2023-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dengyouf.github.io/blog/ansible/02-install/</loc>
-         <lastmod>2023-09-14</lastmod>
+         <lastmod>2023-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dengyouf.github.io/blog/ansible/03-playbooks/</loc>
-         <lastmod>2023-09-14</lastmod>
+         <lastmod>2023-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dengyouf.github.io/blog/devops/jenkins/</loc>
-         <lastmod>2023-09-14</lastmod>
+         <lastmod>2023-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dengyouf.github.io/blog/kubernetes/01-introduction/</loc>
+         <lastmod>2023-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
